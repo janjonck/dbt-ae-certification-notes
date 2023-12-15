@@ -9,6 +9,7 @@ Consolidated notes relating to the dbt Analytics Engineering certification. This
 ## Checkpoint 1 - Build a foundation
 
 - [Reading: The dbt viewpoint - how it fits in the modern analytics stack](https://docs.getdbt.com/community/resources/viewpoint)
+- [dbt Project Overview](/../main/CP1-BuildAFoundation/Projects.md)
 - [dbt Source Properties](/../main/CP1-BuildAFoundation/SourceProperties.md)
 - [dbt Syntax Overview](/../main/CP1-BuildAFoundation/SyntaxOverview.md)
   - [dbt command cheat sheet](/../main/dbt_cheat_sheet.pdf)
