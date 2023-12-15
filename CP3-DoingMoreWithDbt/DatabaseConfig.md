@@ -1,0 +1,64 @@
+# Database Config
+
+## Model
+
+Specify a custom database for a model in your `dbt_project.yml` file. 
+
+For example, if you have a model that you want to load into a database other than the target database, you can configure it like this:
+
+```yml
+models:
+  your_project:
+    sales_metrics:
+      +database: reporting
+```
+
+This would result in the generated relation being located in the `reporting` database, so the full relation name would be `reporting.finance.sales_metrics` instead of the default target database.
+
+## Seeds
+
+Configure a database in your `dbt_project.yml` file. 
+
+For example, to load a seed into a database called `staging` instead of the target database, you can configure it like this:
+
+```yml
+seeds:
+  your_project:
+    product_categories:
+      +database: staging
+```
+
+This would result in the generated relation being located in the `staging` database, so the full relation name would be `staging.finance.product_categories`.
+
+## Test
+
+Configure a database in your `dbt_project.yml` file. 
+
+For example, to load a test into a database called `reporting` instead of the target database, you can configure it like this:
+
+
+```yml
+tests:
+  - my_not_null_test:
+      column_name: order_id
+      type: not_null
+      +database: reporting
+```
+
+This would result in the generated relation being located in the `reporting` database, so the full relation name would be `reporting.finance.my_not_null_test`.
+
+
+## Definition
+
+Optionally specify a custom database for a model, seed, or data test. (To specify a database for a snapshot, use the `target_database`).
+
+When dbt creates a relation in a database, it creates it as: `{{ database }}.{{ schema }}.{{ identifier }}`, e.g. `analytics.finance.payments`
+
+The standard behavior of dbt is:
+* If a custom database is _not_ specified, the database of the relation is the target database (`{{ target.database }}`).
+* If a custom database is specified, the database of the relation is the `{{ database }}` value.
+
+
+
+## Warehouse specific information
+* BigQuery: `project` and `database` are interchangeable
