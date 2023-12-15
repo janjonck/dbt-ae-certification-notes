@@ -17,7 +17,7 @@ Consolidated notes relating to the dbt Analytics Engineering certification. This
 ## Checkpoint 2 - Modularity and Refactoring
 
 - [Refactoring Strategies](/../main/CP2-ModularityAndRefactoring/ChooseARefactoringStrategy.md)
-- [Implementing CTE Groupings](/../main/CP2-ModularityAndRefactoring/ImplementCTEGroupings.md)
+- [Refactoring CTEs to individual dbt models](/../main/CP2-ModularityAndRefactoring/RefactoringCTEsToIndividualModels.md)
 
 ## Checkpoint 3 - Doing more with dbt
 
