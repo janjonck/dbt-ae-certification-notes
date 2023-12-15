@@ -27,6 +27,8 @@ Consolidated notes relating to the dbt Analytics Engineering certification. This
 ## Checkpoint 3 - Doing more with dbt
 
 - [Course: Jinja, Macros, and Packages](https://courses.getdbt.com/courses/jinja-macros-packages)
+- [Reading: All jinja functions (dbt docs)](https://docs.getdbt.com/reference/dbt-jinja-functions)
+  - Not mandatory to know all by heart, but some that are good to knwo include: `doc`, `log`, `model`, `ref`, `source`, `set`, `target`, `schema`. 
 
 ## Checkpoint 4 - Deployment and testing
 
