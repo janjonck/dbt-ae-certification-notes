@@ -8,10 +8,11 @@ Consolidated notes relating to the dbt Analytics Engineering certification. This
 
 ## Checkpoint 1 - Build a foundation
 
-- [Source Properties](/../main/CP1-BuildAFoundation/SourceProperties.md)
-- [Syntax Overview](/../main/CP1-BuildAFoundation/SyntaxOverview.md)
+- [dbt Source Properties](/../main/CP1-BuildAFoundation/SourceProperties.md)
+- [dbt Syntax Overview](/../main/CP1-BuildAFoundation/SyntaxOverview.md)
   - [dbt command cheat sheet](/../main/dbt_cheat_sheet.pdf)
 - [dbt_project.yml file](/../main/CP1-BuildAFoundation/dbt_project.yml.md)
+- [Version control - Git cheat sheet](/../main/github-git-cheat-sheet.pdf)
 
 ## Checkpoint 2 - Modularity and Refactoring
 
