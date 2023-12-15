@@ -1,9 +1,4 @@
----
-sidebar_label: "schema"
-resource_types: [models, seeds, tests]
-description: "Override the default schema when dbt creates resources in your data platform."
-datatype: string
----
+# Schema config models
 
 <Tabs>
 <TabItem value="model" label="Model">
