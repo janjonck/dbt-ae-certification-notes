@@ -1,4 +1,6 @@
-Every [dbt project](/docs/build/projects) needs a `dbt_project.yml` file — this is how dbt knows a directory is a dbt project. It also contains important information that tells dbt how to operate your project.
+# dbt project .yml file
+
+Every dbt project needs a `dbt_project.yml` file — this is how dbt knows a directory is a dbt project. It also contains important information that tells dbt how to operate your project.
 
 <VersionBlock lastVersion="1.4">
 
