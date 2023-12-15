@@ -10,10 +10,12 @@ Consolidated notes relating to the dbt Analytics Engineering certification. This
 
 - [Reading: The dbt viewpoint - how it fits in the modern analytics stack](https://docs.getdbt.com/community/resources/viewpoint)
 - [dbt Project Overview](/../main/CP1-BuildAFoundation/Projects.md)
-- [dbt Source Properties](/../main/CP1-BuildAFoundation/SourceProperties.md)
 - [dbt Syntax Overview](/../main/CP1-BuildAFoundation/SyntaxOverview.md)
   - [dbt command cheat sheet](/../main/dbt_cheat_sheet.pdf)
 - [dbt_project.yml file](/../main/CP1-BuildAFoundation/dbt_project.yml.md)
+- [dbt Sources](/../main/CP1-BuildAFoundation/Sources.md)
+  - [dbt Source Properties](/../main/CP1-BuildAFoundation/SourceProperties.md)
+- [Materialization](/../main/CP1-BuildAFoundation/Materializations.md)
 - [Version control - Git cheat sheet](/../main/github-git-cheat-sheet.pdf)
 - [Course: dbt Fundamentals](https://courses.getdbt.com/courses/fundamentals)
 
@@ -27,9 +29,15 @@ Consolidated notes relating to the dbt Analytics Engineering certification. This
 
 ## Checkpoint 3 - Doing more with dbt
 
+- [Database configs](/../main/CP3-DoingMoreWithDbt/DatabaseConfig.md)
+- [Schema configs](/../main/CP3-DoingMoreWithDbt/SchemaConfig.md)
+- [Target variable](/../main/CP3-DoingMoreWithDbt/TargetVariable.md)
+- [Hooks](/../main/CP3-DoingMoreWithDbt/Hooks.md)
+- [Exposures](/../main/CP3-DoingMoreWithDbt/Exposures.md)
+- [env_var](/../main/CP3-DoingMoreWithDbt/env_var_function.md)
 - [Course: Jinja, Macros, and Packages](https://courses.getdbt.com/courses/jinja-macros-packages)
-- [Reading: All jinja functions (dbt docs)](https://docs.getdbt.com/reference/dbt-jinja-functions)
-  - Not mandatory to know all by heart, but some that are good to knwo include: `doc`, `log`, `model`, `ref`, `source`, `set`, `target`, `schema`. 
+- [Reading: All Jinja functions (dbt docs)](https://docs.getdbt.com/reference/dbt-jinja-functions)
+  - Not mandatory to know all by heart, but some that are good to know include: `doc`, `log`, `model`, `ref`, `source`, `set`, `target`, `schema`. 
 
 ## Checkpoint 4 - Deployment and testing
 
