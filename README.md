@@ -18,7 +18,7 @@ Please make us of the [dbt docs site](https://docs.getdbt.com/docs/build/project
   - [dbt Source Properties](/../main/CP1-BuildAFoundation/SourceProperties.md)
 - [Materialization](/../main/CP1-BuildAFoundation/Materializations.md)
 - [Version control - Git cheat sheet](/../main/github-git-cheat-sheet.pdf)
-- [Course: dbt Fundamentals](https://courses.getdbt.com/courses/fundamentals)
+- [Course: dbt Fundamentals](https://courses.getdbt.com/courses/fundamentals) ***take this!***
 
 ## Checkpoint 2 - Modularity and Refactoring
 
