@@ -1,5 +1,11 @@
 # Syntax overview
 
+For a dbt command cheat sheet please go here: [dbt command cheat sheet](/../main/dbt_cheat_sheet.pdf)
+
+In the below text you will find explanaitons of some of these commands. All content was taken from [dbt docs (syntax)](https://docs.getdbt.com/reference/node-selection/syntax)
+
+## Node selection
+
 dbt's node selection syntax makes it possible to run only specific resources in a given invocation of dbt. This selection syntax is used for the following subcommands:
 
 |    Syntax   |       Argument(s)       |
