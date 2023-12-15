@@ -1,5 +1,7 @@
 # Source Properties
 
+All content is based on: [dbt docs (source properties)](https://docs.getdbt.com/reference/source-properties)
+
 ## Overview
 
 Source properties can be declared in any ```properties.yml``` file in your ```models/``` directory (as defined by the model-paths config). Source properties are "special properties" in that you can't configure them in the ```dbt_project.yml``` file or using config() blocks. Refer to Configs and properties for more info.
