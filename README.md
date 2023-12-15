@@ -22,21 +22,21 @@ Please make us of the [dbt docs site](https://docs.getdbt.com/docs/build/project
 
 ## Checkpoint 2 - Modularity and Refactoring
 
+- [Course: Refactoring SQL for Modularity](https://courses.getdbt.com/courses/refactoring-sql-for-modularity) ***take this!***
 - [Refactoring Strategies](/../main/CP2-ModularityAndRefactoring/ChooseARefactoringStrategy.md)
 - [Refactoring CTEs to individual dbt models](/../main/CP2-ModularityAndRefactoring/RefactoringCTEsToIndividualModels.md)
 - [Reading: How we structure our dbt projects (dbt docs)](https://docs.getdbt.com/best-practices/how-we-structure/1-guide-overview)
 - [Reading: Your Essential dbt Project Checklist (dbt docs)](https://docs.getdbt.com/blog/essential-dbt-project-checklist#-dag-auditing)
-- [Course: Refactoring SQL for Modularity](https://courses.getdbt.com/courses/refactoring-sql-for-modularity)
 
 ## Checkpoint 3 - Doing more with dbt
 
+- [Course: Jinja, Macros, and Packages](https://courses.getdbt.com/courses/jinja-macros-packages) ***take this!***
 - [Database configs](/../main/CP3-DoingMoreWithDbt/DatabaseConfig.md)
 - [Schema configs](/../main/CP3-DoingMoreWithDbt/SchemaConfig.md)
 - [Target variable](/../main/CP3-DoingMoreWithDbt/TargetVariable.md)
 - [Hooks](/../main/CP3-DoingMoreWithDbt/Hooks.md)
 - [Exposures](/../main/CP3-DoingMoreWithDbt/Exposures.md)
 - [env_var](/../main/CP3-DoingMoreWithDbt/env_var_function.md)
-- [Course: Jinja, Macros, and Packages](https://courses.getdbt.com/courses/jinja-macros-packages)
 - [Reading: All Jinja functions (dbt docs)](https://docs.getdbt.com/reference/dbt-jinja-functions)
   - Not mandatory to know all by heart, but some that are good to know include: `doc`, `log`, `model`, `ref`, `source`, `set`, `target`, `schema`. 
 
