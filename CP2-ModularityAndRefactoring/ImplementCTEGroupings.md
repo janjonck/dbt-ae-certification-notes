@@ -7,7 +7,7 @@ If your interested in dbt's own style guide for all supported languages, click [
 
 ## Converting legacy SQL in dbt
 
-Once you choose your refactoring strategy, you'll want to do some cosmetic cleanups according to your data modeling best practices and start moving code into CTE groupings. This will give you a head start on porting SQL snippets from CTEs into modular dbt data models. This can be done in the form of intermediate models, `models/intermediate` (somewhat simliar to conventional prep views). This way, a CTE from an old setup/project might become its own intermediate model in dbt.
+Once you choose your refactoring strategy, you'll want to do some cosmetic cleanups according to your data modeling best practices and start moving code into CTE groupings. This will give you a head start on porting SQL snippets from CTEs into modular dbt data models. This can be done in the form of staging or intermediate models, `models/staging` or `models/intermediate`. This way, a CTE from an old setup/project might become its own staging or intermediate model in dbt.
 
 ## What's a CTE?
 
@@ -26,24 +26,27 @@ with
 
 import_orders as (
 
-    -- query only non-test orders
+    -- query only non-test orders -> this CTE will become a staging model
     select * from {{ source('jaffle_shop', 'orders') }}
     where amount > 0
 ),
 
 import_customers as (
+    -- This will also become a staging model
     select * from {{ source('jaffle_shop', 'customers') }}
 ),
 
 logical_cte_1 as (
 
     -- perform some math on import_orders
+    -- potential intermediate model
 
 ),
 
 logical_cte_2 as (
 
     -- perform some math on import_customers
+    -- potential intermediate model
 ),
 
 final_cte as (
@@ -54,21 +57,23 @@ final_cte as (
 select * from final_cte
 ```
 
+### Import CTEs
+
+In the example above, we have two "import CTEs" where we are selecting directly from the source with minor or no transformations. These are good examples of CTEs we would most likely want to turn into `staging` models. We want to look at the transformations that can occur within each of these sources without needing to be joined to each other, and then we want to make components out of those so they can be our building blocks for further development.
+
 ### Logical CTEs
 
 Logical CTEs contain unique transformations used to generate the final product, and we want to separate these into logical blocks. To identify our logical CTEs, we will follow subqueries in order.
-
 If a subquery has nested subqueries, we will want to continue moving down until we get to the first layer, then pull out the subqueries in order as CTEs, making our way back to the final select statement.
-
 Name these CTEs as the alias that the subquery was given - you can rename it later, but for now it is best to make as few changes as possible.
-
 If the script is particularly complicated, it's worth it to go through once you're finished pulling out subqueries and follow the CTEs to make sure they happen in an order that makes sense for the end result.
+When a model becomes complex or can be divided out into reusable components you may consider an intermediate model. Intermediate models are optional and are not always needed, but do help when you have large data flows coming together.
 
 ### Final CTE
 
 The previous process usually results in a select statement that is left over at the end - this select statement can be moved into its own CTE called the final CTE, or can be named something that is inherent for others to understand. This CTE determines the final product of the model.
 
-### Final CTE
+### Simple select statement
 
 After you have moved everything into CTEs, you'll want to write a `select * from final` (or something similar, depending on your final CTE name) at the end of the model.
 
