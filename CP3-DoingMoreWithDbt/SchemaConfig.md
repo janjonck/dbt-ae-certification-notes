@@ -3,6 +3,8 @@
 <Tabs>
 <TabItem value="model" label="Model">
 
+## Model
+
 Specify a custom schema for a group of models in your `dbt_project.yml` file or a config block. 
 
 For example, if you have a group of marketing-related models and you want to place them in a separate schema called `marketing`, you can configure it like this:
@@ -18,9 +20,8 @@ models:
 </File>
 
 This would result in the generated relations for these models being located in the  `marketing` schema, so the full relation names would be `analytics.marketing.model_name`. 
-</TabItem>
 
-<TabItem value="seeds" label="Seeds">
+## Seeds
 
 Configure a custom schema in your `dbt_project.yml` file. 
 
@@ -36,10 +37,8 @@ seeds:
 ```
 
 This would result in the generated relation being located in the `mappings` schema, so the full relation name would be `analytics.mappings.product_mappings`. 
-</File>
-</TabItem>
 
-<TabItem value="tests" label="Test">
+## Test
 
 Customize the schema for storing test results in your `dbt_project.yml` file. 
 
