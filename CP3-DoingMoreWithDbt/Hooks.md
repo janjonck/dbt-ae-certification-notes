@@ -1,5 +1,7 @@
 # Getting started with hooks and operations
 
+Ref: [dbt docs](https://docs.getdbt.com/docs/build/hooks-operations)
+
 Effective database administration sometimes requires additional SQL statements to be run, for example:
 - Creating UDFs
 - Managing row- or column-level permissions
