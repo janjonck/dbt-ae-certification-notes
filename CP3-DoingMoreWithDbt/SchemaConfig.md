@@ -1,7 +1,6 @@
 # Schema config models
 
-<Tabs>
-<TabItem value="model" label="Model">
+Ref: [dbt docs](https://docs.getdbt.com/reference/resource-configs/schema)
 
 ## Model
 
