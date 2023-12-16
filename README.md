@@ -21,6 +21,7 @@ Please make us of the [dbt docs site](https://docs.getdbt.com/docs/build/project
 - [Tests](/../main/CP1-BuildAFoundation/Tests.md)
 - [Version control - Git cheat sheet](/../main/github-git-cheat-sheet.pdf)
 - [Course: dbt Fundamentals](https://courses.getdbt.com/courses/fundamentals) ***take this!***
+  - This is mandatory. It gives you such a good foundation and grasp of what dbt is.
 
 ## Checkpoint 2 - Modularity and Refactoring
 
