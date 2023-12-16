@@ -5,7 +5,7 @@ Consolidated notes relating to the dbt Analytics Engineering certification. This
 
 > - [dbt certification study guide](https://www.getdbt.com/assets/uploads/dbt_certificate_study_guide.pdf)
 
-Please make us of the [dbt docs site](https://docs.getdbt.com/docs/build/projects) which this repo is based on. This is especially relevant if you want further clarifications on anything mentioned, or if you are just curious on all what dbt has to offer. Preferably, you will have had the time to go through most of this reading material as well. The things in this repo are basically hand picked material from this site, with additional links referred to in the exam study guide.
+Please make use of the [dbt docs site](https://docs.getdbt.com/docs/build/projects), which this repo is based on. This is especially relevant if you want further clarifications on anything mentioned, or if you are just curious on all what dbt has to offer. Preferably, you will have had the time to go through most of this reading material as well. The things in this repo are basically hand picked material from this site, with additional links referred to in the exam study guide.
 
 ## Checkpoint 1 - Build a foundation
 
