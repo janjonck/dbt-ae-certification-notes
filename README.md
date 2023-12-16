@@ -14,9 +14,11 @@ Please make us of the [dbt docs site](https://docs.getdbt.com/docs/build/project
 - [dbt Syntax Overview](/../main/CP1-BuildAFoundation/SyntaxOverview.md)
   - [dbt command cheat sheet](/../main/dbt_cheat_sheet.pdf)
 - [dbt_project.yml file](/../main/CP1-BuildAFoundation/dbt_project.yml.md)
+- [dbt Models](/../main/CP1-BuildAFoundation/Models.md)
 - [dbt Sources](/../main/CP1-BuildAFoundation/Sources.md)
   - [dbt Source Properties](/../main/CP1-BuildAFoundation/SourceProperties.md)
 - [Materialization](/../main/CP1-BuildAFoundation/Materializations.md)
+- [Tests](/../main/CP1-BuildAFoundation/Tests.md)
 - [Version control - Git cheat sheet](/../main/github-git-cheat-sheet.pdf)
 - [Course: dbt Fundamentals](https://courses.getdbt.com/courses/fundamentals) ***take this!***
 
