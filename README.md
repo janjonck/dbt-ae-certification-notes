@@ -33,6 +33,9 @@ Please make us of the [dbt docs site](https://docs.getdbt.com/docs/build/project
 ## Checkpoint 3 - Doing more with dbt
 
 - [Course: Jinja, Macros, and Packages](https://courses.getdbt.com/courses/jinja-macros-packages) ***take this!***
+  - This small course provides you with all the knwoledge you need about Jinja, Macros, and Packages!
+- [Seeds](/../main/CP3-DoingMoreWithDbt/Seeds.md)
+- [Analyses](/../main/CP3-DoingMoreWithDbt/Analyses.md)
 - [Database configs](/../main/CP3-DoingMoreWithDbt/DatabaseConfig.md)
 - [Schema configs](/../main/CP3-DoingMoreWithDbt/SchemaConfig.md)
 - [Target variable](/../main/CP3-DoingMoreWithDbt/TargetVariable.md)
@@ -44,3 +47,6 @@ Please make us of the [dbt docs site](https://docs.getdbt.com/docs/build/project
 ## Checkpoint 4 - Deployment and testing
 
 - [Hooks](/../main/CP4-DeploymentAndTesting/Hooks.md)
+- [Reading: dbt Pull Request template](https://docs.getdbt.com/blog/analytics-pull-request-template)
+- [Reading: Reviewing Pull Requests](https://www.getdbt.com/blog/how-to-review-an-analytics-pull-request)
+- [Reading: Configuring Snowflake](https://www.getdbt.com/blog/how-we-configure-snowflake)
