@@ -1,5 +1,7 @@
 # About target variable
 
+Ref: [dbt docs](https://docs.getdbt.com/reference/dbt-jinja-functions/target)
+
 `target` contains information about your connection to the warehouse.
 
 - **dbt Core**: These values are based on the target defined in your profiles.yml file
