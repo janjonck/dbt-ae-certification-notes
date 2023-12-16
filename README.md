@@ -50,4 +50,6 @@ Please make us of the [dbt docs site](https://docs.getdbt.com/docs/build/project
 - [Hooks](/../main/CP4-DeploymentAndTesting/Hooks.md)
 - [Reading: dbt Pull Request template](https://docs.getdbt.com/blog/analytics-pull-request-template)
 - [Reading: Reviewing Pull Requests](https://www.getdbt.com/blog/how-to-review-an-analytics-pull-request)
+  - Summarized notes: [Reviewing PRs notes](/../main/CP4-DeploymentAndTesting/ReviewPRNotes.md) 
 - [Reading: Configuring Snowflake](https://www.getdbt.com/blog/how-we-configure-snowflake)
+  - Summarized notes: [Configuring Snowflake Notes](/../main/CP4-DeploymentAndTesting/ConfiguringSnowflakeNotes.md) 
