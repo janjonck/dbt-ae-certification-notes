@@ -36,7 +36,6 @@ Please make us of the [dbt docs site](https://docs.getdbt.com/docs/build/project
 - [Database configs](/../main/CP3-DoingMoreWithDbt/DatabaseConfig.md)
 - [Schema configs](/../main/CP3-DoingMoreWithDbt/SchemaConfig.md)
 - [Target variable](/../main/CP3-DoingMoreWithDbt/TargetVariable.md)
-- [Hooks](/../main/CP3-DoingMoreWithDbt/Hooks.md)
 - [Exposures](/../main/CP3-DoingMoreWithDbt/Exposures.md)
 - [env_var](/../main/CP3-DoingMoreWithDbt/env_var_function.md)
 - [Reading: All Jinja functions (dbt docs)](https://docs.getdbt.com/reference/dbt-jinja-functions)
@@ -44,5 +43,4 @@ Please make us of the [dbt docs site](https://docs.getdbt.com/docs/build/project
 
 ## Checkpoint 4 - Deployment and testing
 
-
-
+- [Hooks](/../main/CP4-DeploymentAndTesting/Hooks.md)
