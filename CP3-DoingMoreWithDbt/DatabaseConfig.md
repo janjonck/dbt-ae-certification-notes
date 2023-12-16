@@ -1,5 +1,7 @@
 # Database Config
 
+Ref: [dbt docs](https://docs.getdbt.com/reference/resource-configs/database)
+
 ## Model
 
 Specify a custom database for a model in your `dbt_project.yml` file. 
