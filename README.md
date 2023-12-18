@@ -26,7 +26,7 @@ Please make use of the [dbt docs site](https://docs.getdbt.com/docs/build/projec
 ## Checkpoint 2 - Modularity and Refactoring
 
 - [Course: Refactoring SQL for Modularity](https://courses.getdbt.com/courses/refactoring-sql-for-modularity) ***take this!***
-  - Gives you a great overview, as refactoring and modularity in dbt might differ a tiny bit from what you migh be used to
+  - Gives you a great overview, as refactoring and modularity in dbt might differ a tiny bit from what you migh be used to.
 - [Refactoring Strategies](/../main/CP2-ModularityAndRefactoring/ChooseARefactoringStrategy.md)
 - [Refactoring CTEs to individual dbt models](/../main/CP2-ModularityAndRefactoring/RefactoringCTEsToIndividualModels.md)
 - [Reading: How we structure our dbt projects (dbt docs)](https://docs.getdbt.com/best-practices/how-we-structure/1-guide-overview)
@@ -35,7 +35,7 @@ Please make use of the [dbt docs site](https://docs.getdbt.com/docs/build/projec
 ## Checkpoint 3 - Doing more with dbt
 
 - [Course: Jinja, Macros, and Packages](https://courses.getdbt.com/courses/jinja-macros-packages) ***take this!***
-  - This small course provides you with all the knwoledge you need about Jinja, Macros, and Packages!
+  - This course provides you with all the knwoledge you need about Jinja, Macros, and Packages!
 - [Seeds](/../main/CP3-DoingMoreWithDbt/Seeds.md)
 - [Analyses](/../main/CP3-DoingMoreWithDbt/Analyses.md)
 - [Database configs](/../main/CP3-DoingMoreWithDbt/DatabaseConfig.md)
