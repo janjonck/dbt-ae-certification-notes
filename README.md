@@ -21,11 +21,12 @@ Please make use of the [dbt docs site](https://docs.getdbt.com/docs/build/projec
 - [Tests](/../main/CP1-BuildAFoundation/Tests.md)
 - [Version control - Git cheat sheet](/../main/github-git-cheat-sheet.pdf)
 - [Course: dbt Fundamentals](https://courses.getdbt.com/courses/fundamentals) ***take this!***
-  - This is mandatory. It gives you such a good foundation and grasp of what dbt is.
+  - This is basically mandatory. It gives you such a good foundation and grasp of what dbt is.
 
 ## Checkpoint 2 - Modularity and Refactoring
 
 - [Course: Refactoring SQL for Modularity](https://courses.getdbt.com/courses/refactoring-sql-for-modularity) ***take this!***
+  - Gives you a great overview, as refactoring and modularity in dbt might differ a tiny bit from what you migh be used to
 - [Refactoring Strategies](/../main/CP2-ModularityAndRefactoring/ChooseARefactoringStrategy.md)
 - [Refactoring CTEs to individual dbt models](/../main/CP2-ModularityAndRefactoring/RefactoringCTEsToIndividualModels.md)
 - [Reading: How we structure our dbt projects (dbt docs)](https://docs.getdbt.com/best-practices/how-we-structure/1-guide-overview)
